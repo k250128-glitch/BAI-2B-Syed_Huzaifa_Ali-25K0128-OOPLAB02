@@ -2,11 +2,11 @@
 #include <string>
  using namespace std;
 class Employee {
-public:
-    std::string name;
+private:
+    string name;
     double monthlySalary;
     double taxPercentage =2.0;
-
+public:
     void get_data() {
         cout << "Enter employee name: ";
         getline(cin, name);
